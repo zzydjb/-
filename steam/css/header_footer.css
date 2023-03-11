@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#global_header {
+    height: 104px;
+    width: auto;
+    background: #171a21;
+    background-position: center top;
+    min-width: 940px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#global_header .content {
+    background: #171a21;
+}
+
+#global_header .content {
+    position: relative;
+    right: 0;
+    width: 940px;
+    height: 104px;
+    margin: 0px auto;
+    z-index: 402;
+}
+
+#global_header div.logo {
+    float: left;
+    padding-top: 30px;
+    margin-right: 40px;
+    width: 176px;
+    height: 44px;
+}
+
+.supernav_container {
+    position: absolute;
+    left: 200px;
+}
+
+.menuitem {
+    display: block;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    color: white;
+}
+#global_actions {
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #b8b6b4;
+    font-size: 11px;
+    z-index: 401;
+}
+#global_action_menu {
+    line-height: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.header-install {
+    display: inline-block;
+    position: relative;
+    height: 21px;
+    line-height: 24px;
+    margin-right: 3px;
+}
+.header-install-btn {
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;
+}
+#footer {
+    background: black;
+    position: relative;
+    top: auto;
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 16px 0 60px 0;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+}
+.footer_content {
+    width: 940px;
+    margin: 0px auto;
+    padding-top: 16px;
+}
+#footer_logo_steam {
+    float: right;
+    padding-top: 2px;
+}
+#footer_logo {
+    float: left;
+    padding-top: 2px;
+}
+#footer_logo img {
+    height: 25px;
+    width: auto;
+}
+#footer #footer_text {
+    float: left;
+    margin-left: 12px;
+    color: #8F98A0;
+    font-size: 12px;
+    line-height: 16px;
+}
+#footer a {
+    color: #C6D4DF;
+}
+#footer a:hover {
+    color: white;
+}
+#footer .valve_links {
+    margin-top: 8px;
+    float: left;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #61686D;
+}

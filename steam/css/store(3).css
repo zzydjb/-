@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* 字体 */
+body.v6 {
+    position: relative;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+}
+/* 热销商品 */
+.home_topsellers_ctn {
+    max-width: 1200px;
+    
+}
+.home_pagecontent_ctn {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 2%;
+    width: auto;
+    filter: drop-shadow(12px 12px 7px rgba(50,3,15,0.5));
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+.home_topsellers_ctn .home_topsellers_games_ctn {
+    justify-content:center;
+}
+.home_topsellers_ctn .home_topsellers_games_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    /* margin: -10px; */
+    /* display: grid;  
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap:1rem;
+    grid-auto-rows:minmax(100px,auto); */
+    
+}
+.home_topsellers_ctn .home_topsellers_games_ctn .TopSellerCapsule, .home_newupcoming_ctn .home_tab_content .sale_capsule {
+    min-width: 44%;
+    margin: 2%;
+}
+.home_topsellers_ctn .home_topsellers_games_ctn .TopSellerCapsule, .home_newupcoming_ctn .home_tab_content .sale_capsule {
+    margin: 10px;
+    max-width: 46%;
+    flex: 1;
+    min-width: 23%;
+}
+.sale_capsule {
+    margin: 0 6px;
+    flex-grow: 0;
+    display: block;
+}
+
+body.v6 .sale_capsule {
+    position: relative;
+}
+
+/* 图片样式  */
+.sale_capsule_image_ctn {
+
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+
+    position: relative;
+
+   
+}
+.sale_capsule_image_hover {
+   
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+    box-shadow: 4px 4px 10px #110c0c;
+    
+    z-index: 3;
+}
+.sale_capsule.with_microtrailer .sale_capsule_image {
+    transition: opacity 2s;
+    position: relative;
+    z-index: 2;
+}
+
+.sale_capsule_image {
+    transition: opacity 2s;
+    display: block;
+    max-width: 100%;
+    box-shadow: 2px 2px 4px #0e0a0a;
+}
+
+
+body.v6 .sale_capsule .discount_block_inline {
+    background: transparent;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: right;
+}
+.discount_block_inline {
+    line-height: 15px;
+    background: transparent;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: right;
+}
+.discount_block {
+    position: relative;
+    display: flex;
+}
+.sale_capsule .discount_block_inline .discount_prices {
+    background: rgba(0,0,0,0.6);
+    padding: 5px 8px;
+}
+.discount_block_inline .discount_prices {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-shrink: 1;
+    overflow: hidden;
+    justify-content: end;
+}
+body.v6 .discount_block.no_discount .discount_final_price {
+    padding: 0px 4px;
+    color: white;
+    line-height: 12px;
+}
+body.v6 .discount_prices > div {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.home_title_ctn {
+    display: flex;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    margin-bottom: 10px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 600;
+    background-color: #100b0b;
+    color: #ffffff;
+    padding: 10px;
+}
+.home_title_ctn .home_title{
+    display: flex;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    margin-bottom: 10px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 600;
+    background-color: #100b0b;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.home_title_ctn .home_line {
+    display: none;
+}
+/* 查看更多 */
+.see_more_link {
+    text-align: center;
+}
+.see_more_link {
+    color: rgb(255, 255, 255);
+}
+.btnv6_white_transparent {
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #fff !important;
+    background: transparent;
+}
+.home_discounts_ctn {
+    display: flex;
+    margin: 0 -20px 0px -20px;
+    flex-wrap: wrap;
+}
+.home_discounts_ctn .home_discounts_block {
+    margin: 20px;
+    flex: 1;
+    min-width: 340px;
+}
+.home_discount_games_ctn {
+    display: flex;
+    /* margin: -10px; */
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.home_discount_games_ctn .sale_capsule {
+    margin: 10px;
+    max-width: 50%;
+    min-width: 40%;
+    flex: 1;
+}
+/* part 4 */
+.home_newupcoming_ctn {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.home_tabs_row_ctn {
+    margin-bottom: 8px;
+}
+.home_tabs_row {
+    background-color: #100b0b;
+    color: #ffffff;
+    padding: 10px;
+}
+.home_tabs_row {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.home_newupcoming_games_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
